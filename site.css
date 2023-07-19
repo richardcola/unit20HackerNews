@@ -1,0 +1,46 @@
+/* CSS file, General typography */
+
+body {
+  font-family: Arimo, sans-serif;
+  margin: 8px 7.5vw;
+}
+
+h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+h5 {
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Site layout */
+
+/* This is the basic box that the main part of the page goes into */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: #f6f6ef;
+}
+
+.hidden {
+  display: none;
+}
+
+/* end CSS file, General typography */
